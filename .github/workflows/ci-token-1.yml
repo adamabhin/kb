@@ -25,7 +25,10 @@ jobs:
           user-email: dev@alterra.id
           destination-branch: master
           system-name: coba
-          
+      - name: Pushes to another repository
+        uses: rochmadnurdin/System@master
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_1 }}
         with:
           source-directory: 'coba/token-2'
           destination-github-username: 'rochmadnurdin'
