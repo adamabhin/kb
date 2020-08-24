@@ -26,5 +26,13 @@ jobs:
           destination-branch: master
           system-name: coba
           
+        with:
+          source-directory: 'coba/token-2'
+          destination-github-username: 'rochmadnurdin'
+          destination-repository-name: 'coba-token-2'
+          user-email: dev@alterra.id
+          destination-branch: master
+          system-name: coba
+         
 
 
