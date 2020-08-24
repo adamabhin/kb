@@ -1,0 +1,30 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Push to Knowledge token 1
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: pandoc/latex
+    steps:
+      - uses: actions/checkout@v2
+      # - name: creates output
+      #   run:  sh ./build.sh
+      - name: Pushes to another repository
+        uses: rochmadnurdin/System@master
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_1 }}
+        with:
+          source-directory: 'coba/token-2'
+          destination-github-username: 'rochmadnurdin'
+          destination-repository-name: 'coba-token-2'
+          user-email: dev@alterra.id
+          destination-branch: master
+          system-name: coba
+          
+
+
