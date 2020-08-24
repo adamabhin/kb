@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Push to Knowledge token 1
+name: Push to token 1 dan token 2
 
 on:
   release:
