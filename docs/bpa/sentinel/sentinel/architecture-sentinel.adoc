@@ -1,8 +1,6 @@
 = Architecture Sentinel
 
 
-image::./images/sentinel-sitemaps.png[Sitemaps Sentinel]
-
 == Related System
 
 https://docs.alterra.id/docs/Business-Initiatives/BPA/Systems/Kraken/index[Kraken]
