@@ -17,6 +17,6 @@ jobs:
           java-version: 1.8
       - name: Build with Maven
         env:
-          username: ${{ secrets.Username_Darma }}
-          password: ${{ secrets.API_Confluence_Darma }}
+          username: ${{ secrets.Username_Melinda }}
+          password: ${{ secrets.API_Confluence_Melinda }}
         run: mvn org.sahli.asciidoc.confluence.publisher:asciidoc-confluence-publisher-maven-plugin:publish --file docs/pom-telco.xml -Dusername=$username -Dpassword=$password
