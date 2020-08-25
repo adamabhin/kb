@@ -25,38 +25,27 @@ jobs:
           user-email: dev@alterra.id
           destination-branch: master
           system-name: docs/sentinel
-      - name: Pushes to sentinel index
+      - name: Pushes to elisian
         uses: rochmadnurdin/System@master
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_1 }}
         with:
-          source-file: 'docs/bpa/sentinel.adoc'
+          source-directory: 'docs/bpa/elisian'
           destination-github-username: 'rochmadnurdin'
-          destination-repository-name: 'sentinel'
+          destination-repository-name: 'elisian'
           user-email: dev@alterra.id
           destination-branch: master
-          system-name: docs
-#       - name: Pushes to elisian
-#         uses: rochmadnurdin/System@master
-#         env:
-#           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_1 }}
-#         with:
-#           source-directory: 'docs/bpa/elisian'
-#           destination-github-username: 'rochmadnurdin'
-#           destination-repository-name: 'elisian'
-#           user-email: dev@alterra.id
-#           destination-branch: master
-#           system-name: docs/elisian
-#       - name: Pushes to Silo V2
-#         uses: rochmadnurdin/System@master
-#         env:
-#           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_1 }}
-#         with:
-#           source-directory: 'docs/telco/silo-v2'
-#           destination-github-username: 'rochmadnurdin'
-#           destination-repository-name: 'silo-v2'
-#           user-email: dev@alterra.id
-#           destination-branch: master
-#           system-name: docs/silo-v2
+          system-name: docs/elisian
+      - name: Pushes to Silo V2
+        uses: rochmadnurdin/System@master
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_1 }}
+        with:
+          source-directory: 'docs/telco/silo-v2'
+          destination-github-username: 'rochmadnurdin'
+          destination-repository-name: 'silo-v2'
+          user-email: dev@alterra.id
+          destination-branch: master
+          system-name: docs/silo-v2
 
 
