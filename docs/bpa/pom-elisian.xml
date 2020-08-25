@@ -19,7 +19,7 @@
  <parent>
    <groupId>org.sahli.asciidoc.confluence.publisher</groupId>
    <artifactId>asciidoc-confluence-publisher-maven-plugin</artifactId>
-   <version>0.10.0</version>
+   <version>1</version>
    </parent>
 <modelVersion>4.0.0</modelVersion>
  <groupId>org.alterra.id</groupId>
