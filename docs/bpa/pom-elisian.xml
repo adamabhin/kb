@@ -23,7 +23,7 @@
    </parent>
 <modelVersion>4.0.0</modelVersion>
  <groupId>org.sahli.asciidoc.confluence.publisher</groupId>
-    <artifactId>asciidoc-confluence-publisher-maven-plugin</artifactId>
+    <artifactId>elisian</artifactId>
     <packaging>pom</packaging>
     <version>1</version>
 <build>
