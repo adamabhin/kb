@@ -30,7 +30,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_1 }}
         with:
-          source-directory: 'docs/bpa/sentinel.adoc'
+          source-file: 'docs/bpa/sentinel.adoc'
           destination-github-username: 'rochmadnurdin'
           destination-repository-name: 'sentinel'
           user-email: dev@alterra.id
