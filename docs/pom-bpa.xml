@@ -37,6 +37,7 @@
         <ancestorId>94634130</ancestorId>
         <username>${username}</username> <!-- or read from property -->
         <password>${password}</password> <!-- or read from property -->
+        <orphanRemovalStrategy>KEEP_ORPHANS</orphanRemovalStrategy>
         <pageTitlePrefix xml:space="preserve"></pageTitlePrefix>
         <pageTitleSuffix xml:space="preserve"></pageTitleSuffix>
         <versionMessage>Version ${project.version}</versionMessage>
