@@ -1,6 +1,6 @@
-= Sentinel
+= Sentinel from KB
 
-== Summary
+== Overview
 
 Sentinel adalah _dashboard_ khusus untuk Tim OPS (Operations) dalam menjalankan tugas kesehariannya.
 Diharapkan pada tahun 2019 Sentinel sudah dapat menggunakan _realtime data_ yang berasal dari data Stream.
