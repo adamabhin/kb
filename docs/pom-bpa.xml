@@ -18,9 +18,36 @@
 <project>
 <modelVersion>4.0.0</modelVersion>
 <groupId>org.alterra.id</groupId>
-<artifactId>migrasi</artifactId>
+<artifactId>migrasi-bpa</artifactId>
 <packaging>pom</packaging>
 <version>1</version>
+  <build>
+  <plugins>
+    <plugin>
+   <groupId>org.sahli.asciidoc.confluence.publisher</groupId>
+   <artifactId>asciidoc-confluence-publisher-maven-plugin</artifactId>
+     <version>0.10.0</version>
+      <configuration>
+        <asciidocRootFolder></asciidocRootFolder>
+        <sourceEncoding>UTF-8</sourceEncoding> <!-- default -->
+        <rootConfluenceUrl>https://alterra.atlassian.net/wiki</rootConfluenceUrl>
+        <skipSslVerification></skipSslVerification>
+        <maxRequestsPerSecond></maxRequestsPerSecond>
+        <spaceKey>SYS</spaceKey>
+        <ancestorId>94634130</ancestorId>
+        <username>darma@alterra.id</username> <!-- or read from property -->
+        <password>4BMsZBcGGiSVP9yPD8dW2437</password> <!-- or read from property -->
+        <pageTitlePrefix xml:space="preserve"></pageTitlePrefix>
+        <pageTitleSuffix xml:space="preserve"></pageTitleSuffix>
+        <versionMessage>Version ${project.version}</versionMessage>
+        <attributes>
+            <version>${project.version}</version>
+            <someOtherKey>value</someOtherKey>
+        </attributes>
+      </configuration>
+    </plugin>
+  </plugins>
+</build>
     <modules>
         <module>/pom-elisian</module>
         <module>/pom-sentinel</module>
