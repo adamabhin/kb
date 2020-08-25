@@ -44,8 +44,6 @@ Sistem Sentinel berfungsi untuk otentikasi pengguna dan fungsi-fungsi lainnya ya
 
 <<sentinel/release-deploy-sentinel.adoc#, Release and Deployment Sentinel>>
 
-<<sentinel/smartbiller-sentinel.adoc#, Smart Biller Sentinel>>
-
 
 == Onboarding Information
 
