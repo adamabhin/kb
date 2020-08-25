@@ -19,13 +19,13 @@
  <parent>
   <groupId>org.sahli.asciidoc.confluence.publisher</groupId>
    <artifactId>asciidoc-confluence-publisher-maven-plugin</artifactId>
-   <version>1</version>
+   <version>0.10.0</version>
 </parent>
 <modelVersion>4.0.0</modelVersion>
- <groupId>org.alterra.id</groupId>
-    <artifactId>sentinel</artifactId>
-    <packaging>pom</packaging>
-    <version>1</version>
+ <groupId>org.sahli.asciidoc.confluence.publisher</groupId>
+ <artifactId>sentinel</artifactId>
+ <packaging>pom</packaging>
+ <version>1</version>
 <build>
   <plugins>
     <plugin>
