@@ -27,11 +27,11 @@
    <groupId>org.sahli.asciidoc.confluence.publisher</groupId>
    <artifactId>asciidoc-confluence-publisher-maven-plugin</artifactId>
      <version>0.10.0</version>
+        </plugin>
+  </plugins>
+</build>
     <modules>
         <module>bpa/pom-elisian.xml</module>
         <module>bpa/pom-sentinel.xml</module>
     </modules>    
-    </plugin>
-  </plugins>
-</build>
 </project>    
