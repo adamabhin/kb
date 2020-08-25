@@ -35,12 +35,13 @@
         <maxRequestsPerSecond></maxRequestsPerSecond>
         <spaceKey>SYS</spaceKey>
         <ancestorId>94634130</ancestorId>
-        <username>darma@alterra.id</username> <!-- or read from property -->
-        <password>4BMsZBcGGiSVP9yPD8dW2437</password> <!-- or read from property -->
+        <username>${username}</username> <!-- or read from property -->
+        <password>${password}</password> <!-- or read from property -->
+        <ancestorId>94634130</ancestorId>
         <pageTitlePrefix xml:space="preserve"></pageTitlePrefix>
         <pageTitleSuffix xml:space="preserve"></pageTitleSuffix>
         <versionMessage>Version ${project.version}</versionMessage>
-        <attributes>
+        <orphanRemovalStrategy>KEEP_ORPHANS</orphanRemovalStrategy>
             <version>${project.version}</version>
             <someOtherKey>value</someOtherKey>
         </attributes>
