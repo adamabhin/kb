@@ -1,8 +1,9 @@
+= [ADR-0001] Taken Decision Sentinel
+
 :toc:
 :toc-title: 
 
 
-= [ADR-0001] Taken Decision Sentinel
 
 ADR (Architecture Decision Record) is a document that captures an important architectural decision made along with its context and consequences.
 
