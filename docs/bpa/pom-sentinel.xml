@@ -19,14 +19,14 @@
  <parent>
   <groupId>org.sahli.asciidoc.confluence.publisher</groupId>
     <artifactId>asciidoc-confluence-publisher-maven-plugin</artifactId>
-     <version>1</version>
-   <relativePath>../docs/pom-bpa.xml</relativePath>
+     <version>0.10.0</version>
+   <relativePath>/pom-bpa.xml</relativePath>
  </parent>
 <modelVersion>4.0.0</modelVersion>
  <groupId>org.sahli.asciidoc.confluence.publisher</groupId>
- <artifactId>sentinel</artifactId>
+ <artifactId>asciidoc-confluence-publisher-maven-plugin</artifactId>
  <packaging>pom</packaging>
- <version>1</version>
+ <version>0.10.0</version>
 <build>
   <plugins>
     <plugin>
