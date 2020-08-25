@@ -18,8 +18,8 @@
 <project>
  <parent>
   <groupId>org.sahli.asciidoc.confluence.publisher</groupId>
-    <artifactId>asciidoc-confluence-publisher-maven-plugin</artifactId>
-     <version>0.10.0</version>
+    <artifactId>migrasi</artifactId>
+     <version>1</version>
    <relativePath>/pom-bpa.xml</relativePath>
    </parent>
 <modelVersion>4.0.0</modelVersion>
