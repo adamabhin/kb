@@ -1,0 +1,70 @@
+= Silo V2
+:label: Telco
+
+== Overview
+
+Silo V2 merupakan sistem yang berfungsi untuk menangani penjualan produk fisik seperti ponsel dan mobile modem beserta _starter pack_ (kartu perdana) atau _bundling_ paket data.
+Pada sistem ini, _request_ dari _partner merchant_ akan disimpan sementara (_inventory_), lalu akan didistribusikan ke _customer_.
+
+Terdapat 4 aktor yang terlibat dalam sistem Silo V2, yaitu:
+
+. Partner Merchant
+. Silo (Sistem)
+. Telco
+. Silo (Sepulsa Ops)
+
+== Team Involved
+
+|===
+| Role | Team| Name
+
+| Product Owner
+| JackRabbit
+| Aryo Indrasmoro
+
+| Development Manager
+| JackRabbit
+| Aryo Indrasmoro
+
+| Lead Developer
+| JackRabbit
+| Ananto Eko Hendarto
+
+| Lead Quality Engineer
+| Otter
+| Marco Ichwan Bosch
+
+| Lead System Analyst
+| Pelican
+| Gabriel Stevano
+|===
+
+== Technical Information
+
+<<silo-v2/url-silo-v2.adoc#, System URL Silo V2>>
+
+<<silo-v2/architecture-silo-v2.adoc#, Architecture Silo V2>>
+
+<<silo-v2/technology-silo-v2.adoc#, Technology Silo V2>>
+
+<<silo-v2/environment-silo-v2.adoc#, Environment Silo V2>>
+
+<<silo-v2/database-silo-v2.adoc#, Database Documentation Silo V2>>
+
+<<silo-v2/release-deploy-silo-v2.adoc#, Release and Deployment Silo V2>>
+
+== Onboarding Information
+
+<<silo-v2/dev-onboarding-silo-v2.adoc#, Developer Onboarding Silo V2>>
+
+<<silo-v2/development-silo-v2.adoc#, Development Silo V2>>
+
+<<silo-v2/naming-convention-silo-v2.adoc#, Naming Convention Silo V2>>
+
+== Documentation
+
+https://silo.sumpahpalapa.com/admin/apidoc[API Documentation]
+
+https://github.com/sepulsa/silo2/releases[Release Note]
+
+<<silo-v2/problem-trouble-silo-v2.adoc#, Problem and Troubleshoot Silo V2>>

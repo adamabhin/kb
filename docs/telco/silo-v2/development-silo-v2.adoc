@@ -1,0 +1,13 @@
+= Development
+
+Berikut ini adalah _workflow/gitflow_ sistem Silo v2:
+
+image::./images-silo-v2/silov2-gitflow.png[image]
+
+*Prosedur _Development_ :*
+
+. Buat _branch_ baru dengan nama `<pivotal_type>/#<PivotalID>_<PivotalTitle>` dari _branch_ `staging/<date_after_release>`
+. Mulai _Pivotal Story_
+. Selesaikan _development pull request_ ke _branch_ `qa/<date_after_release>` dengan _message_ `[FINISH#<PivotalID>] <PivotalTitle>`
+. Terima _Pull Request_ dengan _message_ `DELIVER#<PivotalID>] <PivotalTitle>`
+. _Tester_ akan melakukan _build_ aplikasi menggunakan Android Studio dari _branch_ `qa/<date_after_release>`
