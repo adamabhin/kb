@@ -1,0 +1,5 @@
+= Naming Convention Elisian
+
+Dalam fase 2 _coding_ Elisian, tidak terdapat standar untuk penamaan _file_, _database_, dan _endpoint_.
+Namun, harus dipastikan untuk memberikan nama yang sudah umum digunakan oleh _developer_.
+Pastikan tim dapat membaca mengerti kode dengan baik.
