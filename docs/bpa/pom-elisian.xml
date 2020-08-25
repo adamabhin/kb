@@ -17,10 +17,10 @@
 
 <project>
  <parent>
-		<groupId>corg.alterra.idt</groupId>
-		<artifactId>maven</artifactId>
-		<version>1</version>
-	</parent>
+   <groupId>corg.alterra.idt</groupId>
+   <artifactId>maven</artifactId>
+   <version>1</version>
+   </parent>
 <modelVersion>4.0.0</modelVersion>
  <groupId>org.alterra.id</groupId>
     <artifactId>migrasi.bpa.elisian</artifactId>
