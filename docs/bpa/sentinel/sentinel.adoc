@@ -58,3 +58,5 @@ Sistem Sentinel berfungsi untuk otentikasi pengguna dan fungsi-fungsi lainnya ya
 == Dokumentasi
 
 https://github.com/sepulsa/kraken-admin/releases[Release Notes]
+
+<<sentinel/adr-doc-sentinel.adoc#, ADR Document Sentinel>>
