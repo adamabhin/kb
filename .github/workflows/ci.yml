@@ -1,0 +1,28 @@
+ # This is a basic workflow to help you get started with Actions
+
+name: Push to Knowledge Based
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: pandoc/latex
+    steps:
+      - uses: actions/checkout@v2
+      # - name: creates output
+      #   run:  sh ./build.sh
+      - name: Pushes to sentinel
+        uses: rochmadnurdin/System@master
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_1 }}
+        with:
+          source-directory: 'docs/bpa/sentinel'
+          destination-github-username: 'rochmadnurdin'
+          destination-repository-name: 'sentinel'
+          user-email: dev@alterra.id
+          destination-branch: master
+          system-name: docs/sentinel 
+
