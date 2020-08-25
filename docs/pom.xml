@@ -50,6 +50,7 @@
   </plugins>
 </build>
     <modules>
+        <module>bpa/pom-elisian.xml</module>
         <module>bpa/pom-sentinel.xml</module>
     </modules>    
 </project>    
