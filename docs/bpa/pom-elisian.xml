@@ -19,11 +19,12 @@
  <parent>
    <groupId>org.sahli.asciidoc.confluence.publisher</groupId>
    <artifactId>asciidoc-confluence-publisher-maven-plugin</artifactId>
-   <version>1</version>
+   <version>0.10.0</version>
    </parent>
 <modelVersion>4.0.0</modelVersion>
  <groupId>org.sahli.asciidoc.confluence.publisher</groupId>
     <artifactId>elisian</artifactId>
+    <packaging>pom</packaging>
     <version>1</version>
 <build>
   <plugins>
