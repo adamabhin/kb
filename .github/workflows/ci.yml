@@ -3,53 +3,55 @@
 name: Push to System
 
 on:
+ 
  pull_request:
-  branches: [master]
+  types: [closed]
  
 #   push:
 #     branches: [master]
 
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    container: pandoc/latex
-    steps:
-      - uses: actions/checkout@v2
-      # - name: creates output
-      #   run:  sh ./build.sh
-      - name: Pushes to sentinel
-        uses: rochmadnurdin/System@master
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_1 }}
-        with:
-          source-directory: 'docs/bpa/sentinel'
-          destination-github-username: 'rochmadnurdin'
-          destination-repository-name: 'sentinel'
-          user-email: dev@alterra.id
-          destination-branch: master
-          system-name: docs/sentinel
-      - name: Pushes to elisian
-        uses: rochmadnurdin/System@master
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_1 }}
-        with:
-          source-directory: 'docs/bpa/elisian'
-          destination-github-username: 'rochmadnurdin'
-          destination-repository-name: 'elisian'
-          user-email: dev@alterra.id
-          destination-branch: master
-          system-name: docs/elisian
-      - name: Pushes to Silo V2
-        uses: rochmadnurdin/System@master
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_1 }}
-        with:
-          source-directory: 'docs/telco/silo-v2'
-          destination-github-username: 'rochmadnurdin'
-          destination-repository-name: 'silo-v2'
-          user-email: dev@alterra.id
-          destination-branch: master
-          system-name: docs/silo-v2
+     build:
+      if: github.event.pull_request.merged == true
+      runs-on: ubuntu-latest
+      container: pandoc/latex
+      steps:
+        - uses: actions/checkout@v2
+        # - name: creates output
+        #   run:  sh ./build.sh
+        - name: Pushes to sentinel
+          uses: rochmadnurdin/System@master
+          env:
+            API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_1 }}
+          with:
+            source-directory: 'docs/bpa/sentinel'
+            destination-github-username: 'rochmadnurdin'
+            destination-repository-name: 'sentinel'
+            user-email: dev@alterra.id
+            destination-branch: master
+            system-name: docs/sentinel
+        - name: Pushes to elisian
+          uses: rochmadnurdin/System@master
+          env:
+            API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_1 }}
+          with:
+            source-directory: 'docs/bpa/elisian'
+            destination-github-username: 'rochmadnurdin'
+            destination-repository-name: 'elisian'
+            user-email: dev@alterra.id
+            destination-branch: master
+            system-name: docs/elisian
+        - name: Pushes to Silo V2
+          uses: rochmadnurdin/System@master
+          env:
+            API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_1 }}
+          with:
+            source-directory: 'docs/telco/silo-v2'
+            destination-github-username: 'rochmadnurdin'
+            destination-repository-name: 'silo-v2'
+            user-email: dev@alterra.id
+            destination-branch: master
+            system-name: docs/silo-v2
 
 
