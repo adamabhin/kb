@@ -27,6 +27,25 @@
    <groupId>org.sahli.asciidoc.confluence.publisher</groupId>
    <artifactId>asciidoc-confluence-publisher-maven-plugin</artifactId>
      <version>0.10.0</version>
+      <configuration>
+        <asciidocRootFolder>pom</asciidocRootFolder>
+        <sourceEncoding>UTF-8</sourceEncoding> <!-- default -->
+        <rootConfluenceUrl>https://alterra.atlassian.net/wiki</rootConfluenceUrl>
+        <skipSslVerification></skipSslVerification>
+        <maxRequestsPerSecond></maxRequestsPerSecond>
+        <spaceKey>SYS</spaceKey>
+        <ancestorId>94634130</ancestorId>
+        <username>${username}</username> <!-- or read from property -->
+        <password>${password}</password> <!-- or read from property -->
+        <orphanRemovalStrategy>KEEP_ORPHANS</orphanRemovalStrategy>
+        <pageTitlePrefix xml:space="preserve"></pageTitlePrefix>
+        <pageTitleSuffix xml:space="preserve"></pageTitleSuffix>
+        <versionMessage>Version ${project.version}</versionMessage>
+        <attributes>
+            <version>${project.version}</version>
+            <someOtherKey>value</someOtherKey>
+        </attributes>
+      </configuration>
      </plugin>
   </plugins>
 </build>
