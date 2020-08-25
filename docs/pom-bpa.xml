@@ -42,6 +42,7 @@
         <pageTitleSuffix xml:space="preserve"></pageTitleSuffix>
         <versionMessage>Version ${project.version}</versionMessage>
         <orphanRemovalStrategy>KEEP_ORPHANS</orphanRemovalStrategy>
+        <attributes>
             <version>${project.version}</version>
             <someOtherKey>value</someOtherKey>
         </attributes>
