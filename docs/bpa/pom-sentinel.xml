@@ -20,13 +20,11 @@
   <groupId>org.sahli.asciidoc.confluence.publisher</groupId>
     <artifactId>migrasi</artifactId>
      <version>1</version>
-   <relativePath>/pom-bpa.xml</relativePath>
  </parent>
 <modelVersion>4.0.0</modelVersion>
- <groupId>org.sahli.asciidoc.confluence.publisher</groupId>
- <artifactId>asciidoc-confluence-publisher-maven-plugin</artifactId>
- <packaging>pom</packaging>
- <version>0.10.0</version>
+ <groupId>org.alterra.id</groupId>
+ <artifactId>sentinel</artifactId>
+ <version>1</version>
 <build>
   <plugins>
     <plugin>
