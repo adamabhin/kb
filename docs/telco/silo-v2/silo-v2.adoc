@@ -1,5 +1,5 @@
-= Silo V2
-:label: Telco
+= Silo V2 from KB
+:keywords: Telco,active
 
 == Overview
 
