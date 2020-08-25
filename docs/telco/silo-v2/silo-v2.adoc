@@ -1,4 +1,4 @@
-= Silo V2 from KB
+= Silo V2
 :keywords: Telco,active
 
 == Overview
