@@ -3,8 +3,6 @@
 
 Informasi terkait implementasi Smart Biller pada Sentinel.
 
-image::images/sentinel-smartbiller.png[]
-
 Dari gambar _high-level_ untuk Smart Biller di atas dapat dijabarkan sebagai berikut:
 
 1. Sentinel menggunakan _API key_ yang disediakan oleh Smart Biller untuk melakukan _request_ ke sistem Smart Biller.
