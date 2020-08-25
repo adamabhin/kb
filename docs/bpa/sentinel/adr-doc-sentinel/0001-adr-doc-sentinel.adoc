@@ -8,7 +8,7 @@ ADR (Architecture Decision Record) is a document that captures an important arch
 
 The following is an example of an adr document  template
 
-* Status: [proposed | rejected | accepted | superseded by <<0002-adr-doc-new-decision-systemname.adoc#, ADR 0002 New Decision>>
+* Status: [proposed | rejected | accepted | superseded by <<0002-adr-doc-new-decision-sentinel.adoc#, ADR 0002 New Decision>>
 * Deciders: [list everyone involved in the decision]
 * Date: [YYYY-MM-DD when the decision was last updated]
 
