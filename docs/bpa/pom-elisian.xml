@@ -26,7 +26,6 @@
  <groupId>org.alterra.id</groupId>
     <artifactId>bpa-elisian</artifactId>
     <version>1</version>
-    <relativePath>../myproject/pom.xml</relativePath>
 <build>
   <plugins>
     <plugin>
