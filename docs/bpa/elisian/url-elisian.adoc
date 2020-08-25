@@ -1,7 +1,0 @@
-= System URL Elisian
-
-|===
-| EnvironmentE | URL 
-| Development | https://elisian.sumpahpalapa.com/login[]
-| UAT | https://elisian.sumpahpalapa.com/login[]| Production | https://elisian.alphabill.id/login[]
-|===
