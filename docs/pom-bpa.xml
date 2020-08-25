@@ -22,7 +22,7 @@
 <packaging>pom</packaging>
 <version>1</version>
     <modules>
-        <module>elisian</module>
-        <module>sentinel</module>
+        <module>bpa/elisian</module>
+        <module>bpa/sentinel</module>
     </modules>    
 </project>    
