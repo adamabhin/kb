@@ -21,8 +21,17 @@
 <artifactId>migrasi-bpa</artifactId>
 <packaging>pom</packaging>
 <version>1</version>
+  <build>
+  <plugins>
+    <plugin>
+   <groupId>org.sahli.asciidoc.confluence.publisher</groupId>
+   <artifactId>asciidoc-confluence-publisher-maven-plugin</artifactId>
+     <version>0.10.0</version>
     <modules>
         <module>bpa/pom-elisian.xml</module>
         <module>bpa/pom-sentinel.xml</module>
     </modules>    
+    </plugin>
+  </plugins>
+</build>
 </project>    
