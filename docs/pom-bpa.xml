@@ -17,8 +17,8 @@
 
 <project>
 <modelVersion>4.0.0</modelVersion>
- <groupId>org.sahli.asciidoc.confluence.publisher</groupId>
-    <artifactId>asciidoc-confluence-publisher-maven-plugin</artifactId>
+ <groupId>org.alterra.id</groupId>
+    <artifactId>migrasi</artifactId>
     <version>1</version>
 <build>
   <plugins>
