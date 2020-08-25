@@ -1,4 +1,4 @@
-= Document ADR (System Name)
+= Document ADR Sentinel
 
 
 The documents below is the history of all decisions applied by the development team based on the exploration” diubah jadi “The documents below are the history of all decisions applied by the development team based on the exploration
@@ -6,8 +6,8 @@ The documents below is the history of all decisions applied by the development t
 
 |===
 |*Document Title* |*Remark/Explanation*
-|0001-ADR Decision A (link to template)|<<adr-doc-sentinel/0001-adr-doc-sentinel.adoc#, Template>>
-|002-ADR Decision B| 
-
+|[ADR-0000] Old Decision Sentinel |<<adr-doc-sentinel/0000-adr-doc-old-decision-sentinel.adoc#, [ADR-0000] Old Decision Sentinel>>
+|[ADR-0001] Taken Decision Sentine | <<adr-doc-sentinel/0001-adr-doc-sentinel.adoc#, [ADR-0001] Taken Decision Sentinel>>
+|[ADR-0002] New Decision Sentinel|<<adr-doc-sentinel/0002-adr-doc-new-decision-sentinel.adoc#, [ADR-0002] New Decision Sentinel>>
+|[ADR-0003] Other Decision Sentinel| <<adr-doc-sentinel/0003-adr-doc-other-decision-sentinel.adoc.adoc#, [ADR-0003] Other Decision Sentinel>>
 |===
-
