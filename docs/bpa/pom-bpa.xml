@@ -28,7 +28,6 @@
      <version>0.10.0</version>
       <configuration>
         <asciidocRootFolder>elisian</asciidocRootFolder>
-        <asciidocRootFolder>sentinel/</asciidocRootFolder>
         <sourceEncoding>UTF-8</sourceEncoding> <!-- default -->
         <rootConfluenceUrl>https://alterra.atlassian.net/wiki</rootConfluenceUrl>
         <skipSslVerification></skipSslVerification>
