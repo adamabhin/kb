@@ -20,7 +20,6 @@
    <groupId>org.sahli.asciidoc.confluence.publisher</groupId>
    <artifactId>asciidoc-confluence-publisher-maven-plugin</artifactId>
    <version>0.10.0</version>
-   <packaging>pom</packaging>
    </parent>
 <modelVersion>4.0.0</modelVersion>
  <groupId>org.sahli.asciidoc.confluence.publisher</groupId>
