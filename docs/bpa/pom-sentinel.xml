@@ -17,10 +17,10 @@
 
 <project>
  <parent>
-  <groupId></groupId>
-   <artifactId></artifactId>
-   <version></version>
-   <relativePath>kb/docs/pom-bpa.xml</relativePath>
+  <groupId>org.sahli.asciidoc.confluence.publisher</groupId>
+    <artifactId>asciidoc-confluence-publisher-maven-plugin</artifactId>
+     <version>1</version>
+   <relativePath>../docs/pom-bpa.xml</relativePath>
  </parent>
 <modelVersion>4.0.0</modelVersion>
  <groupId>org.sahli.asciidoc.confluence.publisher</groupId>
