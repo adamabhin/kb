@@ -25,7 +25,6 @@
  <groupId>org.sahli.asciidoc.confluence.publisher</groupId>
  <artifactId>sentinel</artifactId>
  <version>0.10.0</version>
- <packaging>pom</packaging>
 <build>
   <plugins>
     <plugin>
