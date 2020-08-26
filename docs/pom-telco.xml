@@ -33,7 +33,7 @@
    <artifactId>asciidoc-confluence-publisher-maven-plugin</artifactId>
      <version>0.10.0</version>
       <configuration>
-        <asciidocRootFolder>telco</asciidocRootFolder>
+        <asciidocRootFolder>pom-telco</asciidocRootFolder>
         <sourceEncoding>UTF-8</sourceEncoding> <!-- default -->
         <rootConfluenceUrl>https://alterra.atlassian.net/wiki</rootConfluenceUrl>
         <skipSslVerification></skipSslVerification>
