@@ -49,6 +49,6 @@
   </plugins>
 </build>
    <modules>
-        <module>telco/pom-silov2.xml</module>
+        <module>telco/pom-silo-v2.xml</module>
     </modules>    
 </project>  
