@@ -5,7 +5,7 @@ Berikut adalah _environment_ dari sistem Silo V2:
 |===
 | Environment | Specs | Server
 
-| Development/Staging
+| _Development/Staging_
 | IP Address
 | 103.117.207.9
 
