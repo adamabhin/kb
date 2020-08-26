@@ -24,7 +24,7 @@
  </parent>
 <modelVersion>4.0.0</modelVersion>
  <groupId>org.alterra.id</groupId>
- <artifactId>sentinel</artifactId>
+ <artifactId>silo-v2</artifactId>
  <packaging>pom</packaging>
  <version>1</version>
 <build>
