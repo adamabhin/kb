@@ -1,4 +1,4 @@
-= Silo V2 from silo system
+= Silo V2
 :keywords: Telco,active
 
 == Overview
