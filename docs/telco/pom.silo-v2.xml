@@ -17,7 +17,7 @@
 
 <project>
   <parent>
-   <groupId>org.alterra.idt</groupId>
+   <groupId>org.alterra.id</groupId>
    <artifactId>migrasi</artifactId>
    <version>1</version>
    <relativePath>..kb/docs/pom-telco.xml</relativePath>
@@ -53,8 +53,5 @@
       </configuration>
     </plugin>
   </plugins>
-</build>
-   <modules>
-        <module>telco/pom-silov2.xml</module>
-    </modules>    
+</build>   
 </project>  
