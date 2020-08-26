@@ -12,7 +12,7 @@ image::./images-silo-v2/silov2-hla.png[HLA Silo V2]
 | System Name | Description
 
 | Kramoris
-| Platform yang digunakan untuk penjualan dan pembelian simcard dan modem.
+| Platform yang digunakan untuk penjualan dan pembelian _simcard_ dan modem.
 
 | Pronghorn
 | Merupakan klien pertama kraken yang bertugas untuk _testing_ produk.
