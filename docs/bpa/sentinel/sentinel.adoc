@@ -1,4 +1,5 @@
 = Sentinel 
+:keywords: BPA
 
 == Overview
 
@@ -8,10 +9,6 @@ Diharapkan pada tahun 2019 Sentinel sudah dapat menggunakan _realtime data_ yang
 Nama lain dari _dashboard_ ini adalah _kraken admin phase 2_.
 Melalui Sentinel kita dapat melihat data transaksi, melakukan pengecekan status produk yang tersedia, menambahkan produk, _partner_, dan _operator_.
 
-=== Informasi Umum*
-
-==== Sistem
-
 Sentinel Web Application (FE)
 
 Aplikasi Web Sentinel adalah UI Interface berupa Web Dashboard yang terhubung dengan beberapa sistem,di antaranya adalah: Kraken, Pollux, Sentinel Backend.
@@ -20,7 +17,7 @@ Sentinel System (BE)
 
 Sistem Sentinel berfungsi untuk otentikasi pengguna dan fungsi-fungsi lainnya yang belum/tidak dapat disediakan oleh sistem lainnya (Kraken, Pollux, dan lainnya).
 
-=== Anggota Tim Sentinel
+== Team Involved
 
 |===
 | Role | Team | Name 
@@ -31,7 +28,7 @@ Sistem Sentinel berfungsi untuk otentikasi pengguna dan fungsi-fungsi lainnya ya
 
 |===
 
-== Informasi Teknis
+== Technical Information
 
 
 <<sentinel/url-sentinel.adoc#, System URL Sentinel>>
@@ -53,7 +50,7 @@ Sistem Sentinel berfungsi untuk otentikasi pengguna dan fungsi-fungsi lainnya ya
 
 <<sentinel/naming-convention-sentinel.adoc#, Naming Convention Sentinel>>
 
-== Dokumentasi
+= Documentation
 
 https://github.com/sepulsa/kraken-admin/releases[Release Notes]
 
