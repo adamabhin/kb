@@ -50,7 +50,7 @@ Sistem Sentinel berfungsi untuk otentikasi pengguna dan fungsi-fungsi lainnya ya
 
 <<sentinel/naming-convention-sentinel.adoc#, Naming Convention Sentinel>>
 
-= Documentation
+== Documentation
 
 https://github.com/sepulsa/kraken-admin/releases[Release Notes]
 
