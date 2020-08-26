@@ -18,7 +18,7 @@
 <project>
 <modelVersion>4.0.0</modelVersion>
  <groupId>org.alterra.id</groupId>
-    <artifactId>bpa-telco</artifactId>
+    <artifactId>telco</artifactId>
     <version>1</version>
 <build>
   <plugins>
