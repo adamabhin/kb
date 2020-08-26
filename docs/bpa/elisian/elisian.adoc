@@ -1,4 +1,4 @@
-= Elisian from Elisian
+= Elisian
 
 == Overview
 
