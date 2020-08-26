@@ -19,4 +19,4 @@ jobs:
         env:
           username: ${{ secrets.Username_Melinda }}
           password: ${{ secrets.API_Confluence_Melinda }}
-        run: mvn org.sahli.asciidoc.confluence.publisher:asciidoc-confluence-publisher-maven-plugin:publish --file docs/pom-telco.xml -Dusername=$username -Dpassword=$password
+        run: mvn org.sahli.asciidoc.confluence.publisher:asciidoc-confluence-publisher-maven-plugin:publish --file docs/telco/pom-telco.xml -Dusername=$username -Dpassword=$password
