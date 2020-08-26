@@ -20,7 +20,7 @@
   <groupId>org.sahli.asciidoc.confluence.publisher</groupId>
     <artifactId>migrasi</artifactId>
      <version>1</version>
-     <relativePath>~/pom-telco.xml</relativePath>
+     <relativePath>~/docs/pom-telco.xml</relativePath>
  </parent>
 <modelVersion>4.0.0</modelVersion>
  <groupId>org.alterra.id</groupId>
@@ -34,7 +34,7 @@
    <artifactId>asciidoc-confluence-publisher-maven-plugin</artifactId>
      <version>0.10.0</version>
       <configuration>
-        <asciidocRootFolder>sentinel</asciidocRootFolder>
+        <asciidocRootFolder>silo-v2</asciidocRootFolder>
         <sourceEncoding>UTF-8</sourceEncoding> <!-- default -->
         <rootConfluenceUrl>https://alterra.atlassian.net/wiki</rootConfluenceUrl>
         <skipSslVerification></skipSslVerification>
