@@ -21,7 +21,7 @@ jobs:
         # - name: creates output
         #   run:  sh ./build.sh
         - name: Pushes to sentinel
-          uses: rochmadnurdin/System@master
+          uses: rochmadnurdin/kb@master
           env:
             API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_1 }}
           with:
@@ -32,7 +32,7 @@ jobs:
             destination-branch: master
             system-name: docs/sentinel
         - name: Pushes to elisian
-          uses: rochmadnurdin/System@master
+          uses: rochmadnurdin/kb@master
           env:
             API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_1 }}
           with:
@@ -43,7 +43,7 @@ jobs:
             destination-branch: master
             system-name: docs/elisian
         - name: Pushes to Silo V2
-          uses: rochmadnurdin/System@master
+          uses: rochmadnurdin/kb@master
           env:
             API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_1 }}
           with:
