@@ -1,57 +1,35 @@
- # This is a basic workflow to help you get started with Actions
+# This CI will run after publish a new release
 
-name: Push to System
+name: Push to Other Repo and Make a PR
 
 on:
- 
- pull_request:
-  types: [closed]
- 
-#   push:
-#     branches: [master]
-
-
+  release:
+    types: [published]
+  
 jobs:
-     build:
-      if: github.event.pull_request.merged == true
-      runs-on: ubuntu-latest
-      container: pandoc/latex
-      steps:
-        - uses: actions/checkout@v2
-        # - name: creates output
-        #   run:  sh ./build.sh
-        - name: Pushes to sentinel
-          uses: rochmadnurdin/kb@master
-          env:
-            API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_1 }}
-          with:
-            source-directory: 'docs/bpa/sentinel'
-            destination-github-username: 'rochmadnurdin'
-            destination-repository-name: 'sentinel'
-            user-email: dev@alterra.id
-            destination-branch: master
-            system-name: docs/sentinel
-        - name: Pushes to elisian
-          uses: rochmadnurdin/kb@master
-          env:
-            API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_1 }}
-          with:
-            source-directory: 'docs/bpa/elisian'
-            destination-github-username: 'rochmadnurdin'
-            destination-repository-name: 'elisian'
-            user-email: dev@alterra.id
-            destination-branch: master
-            system-name: docs/elisian
-        - name: Pushes to Silo V2
-          uses: rochmadnurdin/kb@master
-          env:
-            API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_1 }}
-          with:
-            source-directory: 'docs/telco/silo-v2'
-            destination-github-username: 'rochmadnurdin'
-            destination-repository-name: 'silo-v2'
-            user-email: dev@alterra.id
-            destination-branch: master
-            system-name: docs/silo-v2
+  processing_docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Push then create PR
+        uses: sepulsa/push_then_pr@master
+        env:
+            API_TOKEN_GITHUB: ${{ secrets.TOKEN }}
 
-
+            DEST_GITHUB_USERNAME: 'sepulsa'
+            DEST_REPO_NAME: 'Techops-Knowledge-Base'
+            USER_EMAIL: 'test@example.com'
+            PUSH_TO_BRANCH: 'docs-silo-v2'
+            PR_TO_BRANCH: 'master'
+            # You can add multiple source file or folder separate by space
+#             SRC_DIR: 'readme.adoc docs test/readme2.adoc'
+            SRC_DIR: 'readme.adoc docs'
+            # You can create nested folder
+            DEST_DIR: 'telco/silo-v2'
+            # You can rename with format source(comma)target
+            # Multiple line if you want to move multiple file / folder
+            RENAME: >-
+                    readme.adoc,docs.adoc 
+#                     readme2.adoc,docs2.adoc
+            # Add your custom Pull Request message
+            PR_MESSAGE: 'New release from silo V2'

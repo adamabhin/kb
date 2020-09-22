@@ -1,0 +1,225 @@
+= Canopus V2
+:keywords: anj, alterrapay, payment-systems
+== Overview
+
+=== *Canopus Virtual Account (VA)*
+
+Canopus VA atau Canopus Virtual Account merupakan _service_ / sistem yang menangani pembayaran melalui _Virtual Account Number_.
+Setiap _customer_ yang melakukan pembayaran menggunakan metode _Virtual Account_ akan di-_generate_-kan nomor _Virtual Account_ yang berbeda, supaya transaksi _Customer_ A tidak tertukar dengan transaksi _Customer_ B.
+
+====  *Metode Pembayaran yang tersedia di Canopus VA*
+
+|===
+| *Channel* | *Development* | *Testing* | *Production*
+
+| BCA Open/Close
+| DONE
+| DONE
+| DONE
+
+| BNI Closed Direct
+| DONE
+| DONE
+| DONE
+
+| Permata Closed
+| DONE
+|
+|
+
+| Mandiri Bill Payment
+| DONE
+| DONE
+| DONE
+
+| Alfamart Xendit
+| DONE
+| DONE
+| DONE
+
+| BRI Closed
+| DONE
+| DONE
+| DONE
+
+| CIMB Closed
+| DONE
+| DONE
+| DONE
+
+| Maybank Closed
+| DONE
+|
+|
+
+| Alfamart Midtrans
+| DONE
+| DONE
+| DONE
+|===
+
+=== *Canopus Bank Transfer (BT)*
+
+Canopus BT atau Canopus Bank Transfer merupakan _service /_ sistem yang meng-_handle_ pembayaran melalui bank transfer.
+Dalam _service_ Canopus BT ini terdapat fungsi untuk _generate payment code_ / kode unik untuk membedakan setiap transaksi yang masuk.
+
+==== *Metode Pembayaran yang tersedia di Canopus BT*
+
+|===
+| *Channel* | *Development* | *Testing* | *Production*
+
+| BCA Direct
+| DONE
+| DONE
+| DONE
+
+| BNI
+| DONE
+| DONE
+| DONE
+
+| Mandiri
+| DONE
+| DONE
+| DONE
+|===
+
+=== *Canopus Credit Card (CC)*
+
+Canopus CC atau Canopus _Credit Card_ merupakan layanan / sistem yang meng-_handle_ pembayaran melalui kartu kredit.
+Canopus CC memungkinkan _Customer_ melakukan pembayaran menggunakan kartu kredit.
+
+
+==== *Metode Pembayaran yang tersedia di Canopus CC*
+
+|===
+| *Channel* | *Development* | *Testing* | *Production*
+
+| Global CC (Jaringan Visa)
+| DONE
+| DONE
+| DONE
+
+| Global CC (Jaringan Mastercard)
+| DONE
+| DONE
+| DONE
+|===
+
+=== *Canopus Outside Payment (OP)*
+
+Canopus OP atau Canopus _Outside payment_ merupakan _service_ / sistem yang menangani pembayaran melalui pihak ketiga seperti Kredivo, Go-pay, dan lain-lain.
+Canopus OP memungkinkan _Customer_ melakukan pembayaran di halaman lain seperti halaman Kredivo, dan sebagainya.
+
+==== *Metode Pembayaran yang tersedia di Canopus OP*
+
+|===
+| *Channel* | *Development* | *Testing* | *Production*
+
+| Kredivo
+| DONE
+| DONE
+| DONE
+
+| Jenius
+| DONE
+| DONE
+| DONE
+
+| GO-PAY
+| DONE
+| DONE
+| DONE
+
+| VosPay
+| DONE
+| DONE
+| DONE
+
+| Akulaku Pay
+| DONE
+|
+|
+
+| OVO
+| DONE
+| DONE
+| DONE
+
+| CIMB Click
+| DONE
+|
+|
+
+| Dana
+| DONE
+| DONE
+|
+
+| LinkAja
+| DONE
+| DONE
+|
+|===
+
+== Team Involved
+
+|===
+| *Name* | *Role* | *Email*
+
+| Bondan Ari Bowo
+| Product Owner
+| bondan@alterra.id
+
+| Evan Sujanto
+| Development Manager
+| evan@alterra.id
+
+| Nur Aizat Insan Firamadan
+| Lead Developer
+| aizat@alterra.id
+
+| Etik Sani Zebua
+| Lead Quality Engineer
+| sani@alterra.id
+|===
+
+== Technical Information
+
+<<docs/url-canopus-v2.adoc#, System URL Canopus V2>>
+
+<<docs/architecture-canopus-v2.adoc#, Architecture Canopus V2>>
+
+<<docs/database-canopus-v2.adoc#, Database Documentation Canopus V2>>
+
+<<docs/technology-canopus-v2.adoc#, Technology Canopus V2>>
+
+<<docs/environment-canopus-v2.adoc#, Environment Canopus V2>>
+
+<<docs/release-deploy-canopus-v2.adoc#, Release and Deployment Canopus V2>>
+
+<<docs/functional-spec-canopus-v2.adoc#, Functional Specification Canopus V2>>
+
+<<docs/flow-wire-canopus-v2.adoc#, Flowe and Wireframe Canopus V2>>
+
+<<docs/canopus-v2-auth.adoc#, Canopus Auth>> 
+
+<<docs/canopus-v2-go.adoc#, Canopus Go>>
+
+== Onboarding Information
+
+<<docs/dev-onboarding-canopus-v2.adoc#, Developer Onboarding Canopus V2>>
+
+<<docs/development-canopus-v2.adoc#, Development Canopus V2>>
+
+<<docs/naming-convention-canopus-v2.adoc#, Naming Convention Canopus V2>>
+
+== Documentation
+
+<<docs/api-doc-canopus-v2.adoc#, API Documentation Canopus V2>>
+
+<<docs/release-note-canopus-v2.adoc#, Release Note Canopus V2>>
+
+<<docs/adr-doc-canopus-v2.adoc#, ADR Document Canopus V2>>
+
+<<docs/product-information-canopus-v2.adoc#, Product Information Document Canopus V2>>

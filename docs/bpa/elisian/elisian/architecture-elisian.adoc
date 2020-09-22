@@ -1,8 +1,0 @@
-= Architecture Elisian
-
-
-image::./images/elisian-hla.png[HLA]
-
-== Sitemaps Elisian
-
-image::./images/elisian-sitemaps.png[Sitemaps Elisian]
