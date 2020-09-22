@@ -25,11 +25,11 @@ jobs:
 #             SRC_DIR: 'readme.adoc docs test/readme2.adoc'
             SRC_DIR: 'readme.adoc docs'
             # You can create nested folder
-            DEST_DIR: 'telco/silo-v2'
+            DEST_DIR: 'alterrapay/canopus-v2'
             # You can rename with format source(comma)target
             # Multiple line if you want to move multiple file / folder
             RENAME: >-
                     readme.adoc,docs.adoc 
 #                     readme2.adoc,docs2.adoc
             # Add your custom Pull Request message
-            PR_MESSAGE: 'New release from silo V2'
+            PR_MESSAGE: 'New release from Canopus V2'
