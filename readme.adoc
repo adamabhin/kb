@@ -4,7 +4,7 @@
 
 === *Canopus Virtual Account (VA)*
 
-Canopus VAv atau Canopus Virtual Account merupakan _service_ / sistem yang menangani pembayaran melalui _Virtual Account Number_.
+Canopus VAvv atau Canopus Virtual Account merupakan _service_ / sistem yang menangani pembayaran melalui _Virtual Account Number_.
 Setiap _customer_ yang melakukan pembayaran menggunakan metode _Virtual Account_ akan di-_generate_-kan nomor _Virtual Account_ yang berbeda, supaya transaksi _Customer_ A tidak tertukar dengan transaksi _Customer_ B.
 
 ====  *Metode Pembayaran yang tersedia di Canopus VA*
